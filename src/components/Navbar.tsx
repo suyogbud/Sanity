@@ -4,6 +4,7 @@ import Image from "next/image";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { NavigationMenuDemo } from "./Menu";
 import RightNav from "./RightNav";
+import Link from "next/link";
 
 const Navbar = () => {
   return (

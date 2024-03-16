@@ -7,7 +7,7 @@ const RightNav = () => {
   return (
     <div className="flex items-center gap-6 ml-14">
       <CiSearch />
-      <Link href={"/login"}>Login</Link>
+      <Button variant={"ghost"}>Log In</Button>
       <Button variant="outline" className="border-orange-400">
         Contact Sales
       </Button>
